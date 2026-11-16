@@ -6,9 +6,7 @@ do carregamento dos dados à explicação do modelo com SHAP.
 Todo o trabalho está em um único notebook, com as saídas salvas (tabelas e gráficos):
 [`credit_card_fraud_detection.ipynb`](credit_card_fraud_detection.ipynb).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU-USUARIO/deteccao-fraude-cartao/blob/main/credit_card_fraud_detection.ipynb)
-
-> Troque `SEU-USUARIO` pelo seu usuário do GitHub nos links deste README.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/walteralmneto/credit_card_fraud_detection/blob/main/credit_card_fraud_detection.ipynb)
 
 ---
 
@@ -118,7 +116,7 @@ O 0,4 pega as mesmas 84 fraudes que o 0,3 com 13 alarmes falsos a menos.
 **Localmente:**
 
 ```bash
-git clone https://github.com/SEU-USUARIO/deteccao-fraude-cartao.git
+git clone https://github.com/walteralmneto/deteccao-fraude-cartao.git
 cd deteccao-fraude-cartao
 pip install -r requirements.txt
 jupyter notebook credit_card_fraud_detection.ipynb
@@ -139,3 +137,4 @@ O notebook leva alguns minutos para rodar do início ao fim (o download da base 
 ## Licença
 
 MIT. Veja o arquivo [LICENSE](LICENSE).
+
